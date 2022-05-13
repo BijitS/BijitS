@@ -1,0 +1,121 @@
+Q.1) Write a program to print your name stored in a variable.
+
+
+public class MyClass {
+    
+public static void main(String args[]) {
+
+     
+//Write a program to print your name stored in a variable.
+ 
+     
+String name = "Bijit"; 
+System.out.println(name);
+}
+
+}
+
+Q.2) Write a program to return Boolean value from a method
+.
+
+
+public class MyClass 
+{
+    
+public static void main(String args[])
+{
+    
+
+//Write a program to return Boolean value from a method
+   
+ 
+    
+MyClass newObject = new MyClass
+System.out.println("All the numbers are Even "+newObject.ans());
+    
+}
+    
+    
+public static boolean ans()
+
+{    
+int a = 2;
+        
+int b = 4;
+        
+int c = 6;
+ 
+       
+       
+boolean statement;
+
+        
+        
+if(a%2==0 && b%2==0 && c%2==0)
+{
+            
+statement = true;
+        
+}
+       
+else
+        
+{
+            
+statement = false;
+}
+        
+        
+return statement;
+     
+    
+}
+    
+
+}
+
+Q.3) Write a program to store a float vlaue in a method and print it.
+
+public class MyClass {
+    public static void main(String args[])
+    {
+    //Write a program to store a float vlaue in a method and print it.
+    MyClass newObject = new MyClass();
+    System.out.println("Value of FLOAT is = "+newObject.ans());
+    }
+    
+    public static float ans(){
+        float a = 2.5f;
+        return a;
+    }
+    
+}
+
+Q.4) Write a program to print sum using one method and difference using another method from main() method.
+
+public class MyClass {
+    public static void main(String args[])
+    {
+    //Write a program to print sum using one method and difference using another method from main() method.
+    MyClass newObject = new MyClass();
+    newObject.sum();
+    newObject.diff();
+    }
+    
+    public static void sum()
+    {
+        int a = 4;
+        int b = 4;
+        System.out.println("Sum of two numbers is "+(a+b));
+    }
+    public static void diff()
+    {
+        int a = 8;
+        int b = 4;
+        System.out.println("Difference between two numbers is "+(a+b));
+    }
+    
+}
+
+Q.5) Write a program to overload a method to calculate volume of square and rectangle.
+

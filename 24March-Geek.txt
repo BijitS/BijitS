@@ -1,0 +1,117 @@
+Q.1) Write a program to print Grade A if score is above 80, else print Grade B if less than 80 using switch case.
+
+public class MyClass {
+    public static void main(String args[]) {
+      //Write a program to print Grade A if score is above 80, else print Grade B if less than 80 using switch case.
+      MyClass newObject = new MyClass();
+      newObject.result();
+    }
+    
+    public static void result()
+    {
+        int English  = 80;
+        int Science = 70;
+        
+        switch(English)
+        {
+        case 80:
+        
+        System.out.println("Grade in English A");
+        break;
+        
+        case 70:
+        
+        System.out.println("Grade in English B");
+        break;
+        
+        }
+        
+        switch(Science)
+        {
+        case 80:
+        
+        System.out.println("Grade in Science A");
+        break;
+        
+        case 70:
+        
+        System.out.println("Grade in Science B");
+        break;
+        
+        }
+    }
+}
+
+Q.2) Write a program to create an array of 10 numbers and print it.
+
+public class MyClass {
+    public static void main(String args[]) {
+      //Write a program to create an array of 10 numbers and print it.
+
+       int tenNumbers[] = {1,2,3,4,5,6,7,8,9,10};
+       
+       for(int i =0; i<10; i++)
+       {
+           System.out.println(tenNumbers[i]);
+       }
+       
+    }
+}
+
+Q.3) Write a program to create an array containing only even numbers from 1-10.
+
+public class MyClass {
+    public static void main(String args[]) {
+      //Write a program to create an array containing only even numbers from 1-10
+
+       int evenNumbers[] = {1,2,3,4,5,6,7,8,9,10};
+       
+       for(int i =0; i<10; i++)
+       {
+           if(evenNumbers[i]%2==0)
+           {
+              System.out.println(evenNumbers[i]);
+           }
+          
+       }
+       
+    }
+}
+
+Q.4)Write a program to take int, float, double, string as an input from the user using Scanner class.
+
+import java.util.Scanner;
+public class MyClass {
+    public static void main(String args[]) {
+      //Write a program to take int, float, double, string as an input from the user using Scanner class.
+
+      Scanner sc = new Scanner(System.in);
+      
+      int Integer = sc.nextInt();
+      float Float = sc.nextFloat();
+      double Double = sc.nextDouble();
+      
+      System.out.println("Integer = "+Integer);
+      System.out.println("Float = "+Float);
+      System.out.println("Double = "+Double);
+    }
+}
+
+Q.5)Write a program to print the &,I,^ of 7,8 using bitwise operator
+
+import java.util.Scanner;
+public class MyClass {
+    public static void main(String args[]) {
+      //Write a program to print the &,I,^ of 7,8 using bitwise operator
+
+        int a = 7;
+        int b = 8;
+ 
+        System.out.println("a&b = " + (a & b));
+ 
+        System.out.println("a|b = " + (a | b));
+ 
+        System.out.println("a^b = " + (a ^ b));
+    }
+}
+

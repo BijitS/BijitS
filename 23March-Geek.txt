@@ -1,0 +1,142 @@
+Q.1) Write a program to print odd numbers from 1 to 10.
+
+public class MyClass {
+    public static void main(String args[])
+    {
+    //Write a program to print odd numbers from 1 to 10.
+    MyClass newObject = new MyClass();
+    newObject.oddNumbers();
+   
+    }
+    public static void oddNumbers()
+    {
+        for(int i = 1; i<=10; i++)
+        {
+            if(i%2 != 0)
+            {
+                System.out.println(i);
+            }
+        }
+    }
+}
+
+Q.2) Write a program to print ll numbers divisible by 11 from 1 to 50.
+
+public class MyClass {
+    public static void main(String args[])
+    {
+    //Write a program to print all numbers divisible by 11 from 1 to 50.
+    MyClass newObject = new MyClass();
+    newObject.numDivby11();
+    }
+    public static void numDivby11()
+    {
+        for(int i = 1; i<=50; i++)
+        {
+            if(i%11==0)
+            {
+                System.out.println(i);
+            }
+        }
+    }
+}
+
+Q.3)Write a program to print highest number from the given numbers as 10,20,30.
+
+public class MyClass {
+    public static void main(String args[])
+    {
+    //Write a program to print highest number from the given numbers as 10,20,30.
+    MyClass newObject = new MyClass();
+    newObject.highestOf3Num();
+    }
+    public static void highestOf3Num()
+    {
+        int a = 10;
+        int b = 20;
+        int c = 30;
+        
+        if(a>b && a>c)
+        {
+            System.out.println("A is greater");
+        }
+        if (b>c && b>a)
+        {
+            System.out.println("B is greater");
+        }
+        if (c>a && c>b)
+        {
+            System.out.println("C is greater");
+        }
+    }
+}
+
+Q.4) Write a program to swap the value of two variables like a = 10 and b = 20 then the output should be  a = 20 and b = 10.
+
+public class MyClass {
+    public static void main(String args[])
+    {
+    //Write a program to swap the value of two variables like a = 10 and b = 20 then the output should be  a = 20 and b = 10.
+
+    MyClass newObject = new MyClass();
+    newObject.swapTwoNum();
+    }
+    public static void swapTwoNum()
+    {
+        
+        int a = 10;
+        int b = 20;
+        System.out.println("Before Swap "+"A = "+a+" B = "+b);
+    
+        int temp = b;
+        
+        b=a;
+        a=temp;
+        System.out.println("After Swap "+"A = "+a+" B = "+b);
+        
+    }
+}
+
+Q.5)Write a program to print PASS if given marks si greater than 50 else print FAIL.
+
+public class MyClass {
+    public static void main(String args[]) {
+      //Write a program to print PASS if given marks si greater than 50 else print FAIL
+      MyClass newObject = new MyClass();
+      newObject.result();
+    }
+    
+    public static void result()
+    {
+        int Hindi = 40;
+        int English  = 80;
+        int Science = 70;
+        
+        if (Hindi>=50)
+        {
+            System.out.println("PASS in Hindi");
+        }
+        else
+        {
+            System.out.println("FAIL in Hindi");
+        }
+        if (English>=50)
+        {
+            System.out.println("PASS in English");
+        }
+        else
+        {
+            System.out.println("FAIL in English");
+        }
+        if (Science>=50)
+        {
+            System.out.println("PASS in Science");
+        }
+        else
+        {
+            System.out.println("FAIL in Science");
+        }
+    }
+}
+
+
